@@ -1,8 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-// Builds an editable, layered equipment card inside the existing EquipmentCard button.
-// Each layer reads an independent sprite or text field from EquipmentData.
+// Display-only component: every visual layer is saved and editable in EquipmentCard.prefab.
+// EquipmentData provides optional per-card overrides and card text.
 [RequireComponent(typeof(Button))]
 public class EquipmentCardView : MonoBehaviour {
     public EquipmentData data;
@@ -26,8 +26,9 @@ public class EquipmentCardView : MonoBehaviour {
     public void Show(EquipmentData item) {
         if (!item) return;
         data = item;
-        if (!artwork || !border || !title || !effect || !attack || !defense) {
-            Debug.LogError("EquipmentCard prefab is missing editable layers. Use Cards > Upgrade Equipment Card Prefab in the Unity editor.", this);
+        if (!artwork || !border || !nameplate || !emblem || !effectPanel ||
+            !attackBadge || !defenseBadge || !title || !faction || !effect || !attack || !defense) {
+            Debug.LogError("EquipmentCard prefab is missing serialized visual references.", this);
             return;
         }
         // The original flattened art is retained as a fallback for older equipment assets.
