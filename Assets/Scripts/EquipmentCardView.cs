@@ -12,9 +12,15 @@ public class EquipmentCardView : MonoBehaviour {
     // Visual children are authored and saved in EquipmentCard.prefab by the editor.
     // Never create or rearrange prefab layers at runtime.
     static void Set(Image image, Sprite sprite, Color fallback) {
-        image.sprite = sprite;
-        image.color = sprite ? Color.white : fallback;
-        image.enabled = sprite != null || fallback.a > 0;
+        // Empty data fields leave prefab artwork and colors intact.
+        if (sprite) {
+            image.sprite = sprite;
+            image.color = Color.white;
+            image.enabled = true;
+        } else if (!image.sprite && fallback.a > 0) {
+            image.color = fallback;
+            image.enabled = true;
+        }
     }
 
     public void Show(EquipmentData item) {
