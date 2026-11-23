@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e123582f0a316044b4c59b0c05026ac, type: 3}
+  m_Name: Arthur
+  m_EditorClassIdentifier: Assembly-CSharp::ChampionData
+  championId: arthur
+  faction: Arthur
+  factionEmblem: {fileID: 0}
+  baseForm:
+    displayName: 
+    artwork: {fileID: 21300000, guid: c1a96108a5877e04287ac5e345991257, type: 3}
+    attack: 4
+    defense: 5
+    effect: 
+  signatureForm:
+    displayName: 
+    artwork: {fileID: 21300000, guid: d4105e0c39c1d0b41a4ac1b4840f2fe1, type: 3}
+    attack: 8
+    defense: 10
+    effect: 
+  finalForm:
+    displayName: 
+    artwork: {fileID: 21300000, guid: 52bd79c39982fe94781c794b8c4dd5fc, type: 3}
+    attack: 25
+    defense: 18
+    effect: 

@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e123582f0a316044b4c59b0c05026ac, type: 3}
-  m_Name: Arthur
+  m_Name: Merlin
   m_EditorClassIdentifier: Assembly-CSharp::ChampionData
   championId: arthur
-  faction: Arthur
+  faction: Merlin
   factionEmblem: {fileID: 0}
   baseForm:
     displayName: 
-    artwork: {fileID: 21300000, guid: c1a96108a5877e04287ac5e345991257, type: 3}
-    attack: 4
-    defense: 5
+    artwork: {fileID: 7184979195099474546, guid: ba4ab882924bb7944a9c321777cab91e, type: 3}
+    attack: 3
+    defense: 4
     effect: 
   signatureForm:
-    displayName: King Arthur
-    artwork: {fileID: 21300000, guid: d4105e0c39c1d0b41a4ac1b4840f2fe1, type: 3}
-    attack: 12
-    defense: 10
+    displayName: 
+    artwork: {fileID: -9000273970460535197, guid: 09f29ed6617ef6040941e98bc0074880, type: 3}
+    attack: 8
+    defense: 8
     effect: 
   finalForm:
-    displayName: Ethernal Kind Arthur
-    artwork: {fileID: 21300000, guid: 52bd79c39982fe94781c794b8c4dd5fc, type: 3}
-    attack: 25
-    defense: 18
+    displayName: 
+    artwork: {fileID: 933017565746149656, guid: 2a330d92f1015b8439f4093f0eee6c1e, type: 3}
+    attack: 18
+    defense: 20
     effect: 

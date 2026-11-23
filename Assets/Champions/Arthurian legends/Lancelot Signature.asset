@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ca87ef5cd3687498388dec7e0bd84e, type: 3}
+  m_Name: Lancelot Signature
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentData
+  displayName: 
+  signature: 0
+  requiredChampionId: 
+  cardArtwork: {fileID: 0}
+  slotIcon: {fileID: 0}
+  artworkLayer: {fileID: 0}
+  borderLayer: {fileID: 0}
+  nameplateLayer: {fileID: 0}
+  factionEmblem: {fileID: 0}
+  effectPanelLayer: {fileID: 0}
+  attackBadgeLayer: {fileID: 0}
+  defenseBadgeLayer: {fileID: 0}
+  faction: 
+  flavorText: 
+  attackBonus: 0
+  defenseBonus: 0
+  fireVisual: 0
+  effect: 

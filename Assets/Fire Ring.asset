@@ -15,8 +15,17 @@ MonoBehaviour:
   displayName: Fire Ring
   signature: 0
   requiredChampionId: 
-  cardArtwork: {fileID: 21300000, guid: 875f4f7b5f768b24984bbdef7a4066e3, type: 3}
+  cardArtwork: {fileID: 21300000, guid: b4a95b8662b15194cada7c875a87814f, type: 3}
   slotIcon: {fileID: 21300000, guid: b4a95b8662b15194cada7c875a87814f, type: 3}
+  artworkLayer: {fileID: 0}
+  borderLayer: {fileID: 0}
+  nameplateLayer: {fileID: 0}
+  factionEmblem: {fileID: 0}
+  effectPanelLayer: {fileID: 0}
+  attackBadgeLayer: {fileID: 0}
+  defenseBadgeLayer: {fileID: 0}
+  faction: 
+  flavorText: 
   attackBonus: 1
   defenseBonus: 0
   fireVisual: 1
